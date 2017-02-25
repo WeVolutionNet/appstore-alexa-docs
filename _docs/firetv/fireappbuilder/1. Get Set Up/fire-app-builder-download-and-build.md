@@ -26,6 +26,11 @@ To clone the repo:
     ```
 
     {% include note.html content="On Windows, if you clone the repo without git's symbolic linking configured to `true`, Fire App Builder won't build." %}
+    {% Check with ```bash
+    git config --show-origin -l
+    ``` 
+    if all symlinks are set to true. 
+    If not (Git for Windows >= 2.5.0) - Check the workaround mentioned in this post: http://stackoverflow.com/questions/38326519/is-there-any-other-place-for-a-git-config-setting-other-than-global-system-and %}
 
 3.  Go to [https://github.com/amzn/fire-app-builder](https://github.com/amzn/fire-app-builder).
 4.  Click **Clone or Download**, and then copy the clone URL: `https://github.com/amzn/fire-app-builder.git`
